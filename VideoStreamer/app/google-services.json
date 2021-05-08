@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421023175069",
+    "project_id": "vlog-79bc5",
+    "storage_bucket": "vlog-79bc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421023175069:android:e5e5e79b4a20d5a797df74",
+        "android_client_info": {
+          "package_name": "com.example.videostreamer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421023175069-iptk70vhh5ek96keg640o26b8mo0q9f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW_QWiHZlDZAGMFP61xkuYk-SbniyLhdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421023175069-iptk70vhh5ek96keg640o26b8mo0q9f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

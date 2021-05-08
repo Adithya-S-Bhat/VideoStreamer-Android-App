@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif"
+        android:text="My Profile"
+        android:textColor="@color/colorAccent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="25dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_upload_you_tube"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/profUserName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:src="@android:drawable/ic_menu_upload_you_tube" />
+
+    <EditText
+
+        android:id="@+id/profUserName"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/cardview_dark_background"
+        android:hint="Profile Name"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/doneBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebutton"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="261dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="Finish"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profUserName"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
